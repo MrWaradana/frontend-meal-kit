@@ -62,7 +62,7 @@ export default function Admin() {
       setUserToken(result);
     });
     if (userToken) {
-      console.log(userToken, "user token");
+      // console.log(userToken, "user token");
       fetchUser();
     }
   }, [userToken]);
